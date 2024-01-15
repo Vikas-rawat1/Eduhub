@@ -1,0 +1,12 @@
+:root{
+  --black-background:#000;
+  --white-background:#fff;
+  --text-color-white:#fff;
+  --text-color-black:#000;
+  --text-color-heading:#851bef;
+  --border-line:#851bef;
+  --hover-text-black:#000;
+  --border-top:rgb(243, 222, 184);
+  --border-bottom:rgb(243, 222, 184);
+  --star-color:#f3c117;
+}

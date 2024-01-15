@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: var(--black-background);
+}
+
+.form-image {
+  width: 20%;
+  height: 5vw;
+}
+.form-image img {
+  width: 30%;
+  margin-left: 17vw;
+  height: 30vw;
+  position: absolute;
+}
+.heading {
+  display: block;
+  text-align: center;
+  font-size: 2.4vw;
+}
+
+.form {
+  border: 2px solid var(--border-line);
+  color: var(--text-color-white);
+  border-radius: 6px;
+  margin: auto;
+  height: 30vw;
+  width: 30%;
+}
+.all-field {
+  margin-top: 4vw;
+}
+.input-tag {
+  outline: none;
+  background-color: var(--black-background);
+  border: 1px solid var(--border-line);
+  color: var(--text-color-white);
+}
+.form .input-field {
+  display: flex;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  align-items: center;
+}
+.form .input-field label {
+  width: 40%;
+}
+.submit-btn {
+  background-color: var(--black-background);
+  border-top: 1px solid var(--border-top);
+  border-left: 1px solid var(--border-bottom);
+  border-right: 1px solid var(--border-line);
+  border-bottom: 1px solid var(--border-line);
+  width: 10vw;
+  height: 3vw;
+  color: var(--text-color-white);
+  font-size: 1.2vw;
+  border-radius: 6px;
+  margin-left: 10vw;
+  top: 3vw;
+  position: relative;
+  transition: all 0.8s, color 0.3s 0.3s;
+}
+.submit-btn:hover {
+  box-shadow: 1vw 4vw 1vw 1vw #fff inset;
+  color: var(--hover-text-black);
+  cursor: pointer;
+}
+
+/*REGISTER-THROUGH */
+.register-through {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  gap: 3vw;
+  margin-top: 5vw;
+  position: relative;
+}
+
+.register-through a {
+  position: relative;
+}
+.register-through a {
+  text-decoration: none;
+}
+
+.register-through a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--white-background);
+  width: 0;
+  height: 0.2vw;
+  transition: width 0.3s ease-in;
+}
+
+.register-through a:hover::after {
+  width: 100%;
+}
