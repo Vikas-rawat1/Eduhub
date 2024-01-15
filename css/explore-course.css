@@ -6,15 +6,10 @@
 }
 body {
   background-color: var(--black-background);
-  position: relative;
-  background: radial-gradient(
-    circle at var(--x) var(--y),
-    rgb(78 58 186) 0.1vw,
-    black 2%
-  );
+  
 }
 .header-container {
-  /* background-color: var(--black-background); */
+  background-color: var(--black-background);
   color: var(--text-color-white);
 }
 .header {
@@ -77,9 +72,11 @@ body {
 .hero-head {
   margin-top: 2vw;
   text-align: center;
-  /* background-color: var(--black-background); */
+  background-color: var(--black-background);
   color: var(--text-color-white);
+  
 }
+
 
 .c-image img {
   position: absolute;
@@ -92,6 +89,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .courses-navbar {
@@ -125,8 +123,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2vw;
-  /* background-color: var(--black-background); */
+  background-color: var(--black-background);
   color: var(--text-color-white);
+
 }
 .course-box {
   border-top: 2px solid var(--border-line);
