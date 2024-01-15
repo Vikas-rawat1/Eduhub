@@ -6,8 +6,12 @@
 }
 body {
   background-color: var(--black-background);
-  
 }
+
+::selection{
+  background-color: var(--text-color-heading);
+}
+
 .header-container {
   background-color: var(--black-background);
   color: var(--text-color-white);

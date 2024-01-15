@@ -8,6 +8,10 @@ body {
   background-color: var(--black-background);
 }
 
+::selection{
+  background-color: var(--text-color-heading);
+}
+
 .form-image {
   width: 20%;
   height: 5vw;
