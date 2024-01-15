@@ -247,6 +247,7 @@ body {
   position: relative;
   list-style-type: none;
   margin: 2vw;
+  max-width: max-content;
 }
 .footer-right ul li::after {
   content: "";
