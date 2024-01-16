@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -177,21 +177,21 @@ span {
   filter: blur(0.1vw);
   border-radius: 1vw;
   transition: all 0.6s;
-
 }
-.customer-review:hover{
+.customer-review:hover {
   cursor: pointer;
   filter: blur(0);
   transform: scale(1.1);
   box-shadow: 30vw 0 0 0 var(--black-background) inset;
-   color: var(--text-color-heading);
+  color: var(--text-color-heading);
 }
 .customer-review p {
   margin-left: 3vw;
 }
 
 .customer-img {
-  display: flex;  position: absolute;
+  display: flex;
+  position: absolute;
 }
 .customer-img img {
   border-radius: 50%;
@@ -238,6 +238,85 @@ span {
   border: 2px solid var(--border-line);
   outline: none;
   margin-left: 1vw;
+}
+
+/* HELPER DESK  */
+.helper-desk {
+  margin-top: 10vw;
+  position: relative;
+}
+.helper-box {
+  display: flex;
+  border: 2px solid var(--border-line);
+  width: 50%;
+  height: 15vw;
+  margin: auto;
+}
+/* LEFT HELP  */
+.left-help {
+  width: 30%;
+  float: left;
+}
+
+.left-help img {
+  position: absolute;
+  width: 9%;
+  height: 26vw;
+  bottom: 0; 
+  transition: all 0.8s;
+}
+.left-help img:hover {
+  transform: scale(1.2);
+}
+/* RIGHT HELP  */
+.right-help {
+  width: 60%;
+  float: right;
+}
+.right-help h4 {
+  font-size: 3vw;
+  font-weight: 200;
+  margin-top: 2vw;
+  color: var(--text-color-white);
+}
+.right-help p {
+  font-size: 1.5vw;
+  color: var(--text-color-white);
+  margin-top: 1vw;
+}
+
+/* TALK BUTTON  */
+.button-talk input {
+  margin-top: 0.4vw;
+  width: 60%;
+  height: 2.4vw;
+  display: flex;
+  outline: none;
+  background: transparent;
+  color: var(--text-color-white);
+  border: 1px solid var(--border-line);
+  border-radius: 5px;
+}
+
+.button-talk {
+  display: flex;
+  margin-top: 2vw;
+}
+.talk-start {
+  background-color: var(--black-background);
+  border: 1px solid var(--border-line);
+  width: 10vw;
+  height: 3vw;
+  color: var(--text-color-white);
+  font-size: 1.2vw;
+  border-radius: 2vw;
+  margin-left: 1vw;
+  transition: all 0.8s, color 0.3s 0.3s;
+}
+.talk-start:hover {
+  box-shadow: 1vw 4vw 1vw 1vw var(--border-line) inset;
+  color: var(--hover-text-black);
+  cursor: pointer;
 }
 
 /* FOOTER RIGHT  */
