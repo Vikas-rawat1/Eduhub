@@ -172,6 +172,10 @@
 .right img {
   width: 70%;
   background: transparent;
+  transition: all 0.8s;
+}
+.right img:hover {
+transform: scale(1.2);
 }
 
 /* CAMPUS TOUR  */
