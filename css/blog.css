@@ -137,6 +137,12 @@ span {
   border-radius: 1vw;
 }
 
+/* .box-img img {
+  width: 3%;
+  height: 3vw;
+  margin-left: 8vw;
+  position: absolute;
+} */
 .box h5 {
   display: block;
   text-align: center;
