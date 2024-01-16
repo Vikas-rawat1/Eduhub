@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--black-background);
 }
@@ -127,11 +130,13 @@ span {
   color: var(--text-color-white);
 }
 .box {
-  border: 2px solid red;
+  border: 2px solid var(--border-line);
   margin-left: 1vw;
   width: 12%;
   height: 3vw;
+  border-radius: 1vw;
 }
+
 .box-img img {
   width: 3%;
   height: 3vw;
@@ -165,7 +170,7 @@ span {
   gap: 2vw;
 }
 .customer-review {
-  border: 1px solid red;
+  border: 1px solid #393939;
   width: 30%;
   height: 20vw;
   color: var(--text-color-white);
@@ -178,6 +183,8 @@ span {
   cursor: pointer;
   filter: blur(0);
   transform: scale(1.1);
+  box-shadow: 30vw 0 0 0 var(--black-background) inset;
+   color: var(--text-color-heading);
 }
 .customer-review p {
   margin-left: 3vw;
