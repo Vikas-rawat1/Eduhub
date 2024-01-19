@@ -200,6 +200,94 @@ body {
   font-size: 2vw;
 }
 
+/* POPUP CONTENT  */
+.enroll-button {
+  display: flex;
+  align-items: center;
+}
+.popup{
+  display: none;
+  position: fixed;
+  top: 5vw;
+  left: 35vw;
+  width: 30%;
+  height: 40vw;
+  background-color: var(--black-background);
+  color: var(--text-color-white);
+}
+.popup-content{
+  width: 100%;
+  box-shadow: 0 0 5vw var(--border-bottom);
+  border-radius: 1vw;
+}
+.close{
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  font-size: 2vw;
+  cursor: pointer;
+}
+
+.popup-content h1,h3{
+  text-align: center;
+  margin-top: 2vw;
+}
+.options{
+  border: 2px solid rgb(59 55 55);
+  margin: 1vw auto;
+  width: 85%;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.options:hover{
+  cursor: pointer;
+}
+
+.options img{
+  height: 2vw;
+
+}
+.payment-icon{
+  margin-top: 1vw;
+  margin-right: 1vw;
+}
+
+.options span img{
+  height: 2vw;
+  margin-top: 1vw;
+  margin-right: 1vw;
+}
+.options p{
+  font-size: 1.3vw;
+  display: flex;
+  margin: 1vw 1vw;
+
+}
+
+.payment-btn {
+  background-color: var(--black-background);
+  border-top: 1px solid var(--border-top);
+  border-left: 1px solid var(--border-bottom);
+  width: 15vw;
+  height: 3vw;
+  top: 1vw;
+  color: var(--text-color-white);
+  font-size: 1.2vw;
+  border-radius: 6px;
+  margin-left: 8vw;
+  position: relative;
+  transition: all 0.8s, color 0.3s 0.3s;
+}
+
+.payment-btn:hover {
+  box-shadow: 1vw 4vw 1vw 1vw #fff inset;
+  color: var(--hover-text-black);
+  cursor: pointer;
+}
+
+
+
 /* FOOTER SECTION  */
 
 /* FOOTER LIST  */
