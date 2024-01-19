@@ -80,10 +80,7 @@ body {
   text-align: center;
   background-color: var(--black-background);
   color: var(--text-color-white);
-  
 }
-
-
 .c-image img {
   position: absolute;
   left: 40vw;
@@ -95,7 +92,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .courses-navbar {
@@ -131,7 +127,6 @@ body {
   gap: 2vw;
   background-color: var(--black-background);
   color: var(--text-color-white);
-
 }
 .course-box {
   border-top: 2px solid var(--border-line);

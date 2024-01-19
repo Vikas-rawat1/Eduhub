@@ -128,33 +128,6 @@ body {
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER SECTION  */
 
 /* FOOTER LIST  */
@@ -186,85 +159,6 @@ body {
   margin-left: 1vw;
 }
 
-/* HELPER DESK  */
-.helper-desk {
-  margin-top: 10vw;
-  position: relative;
-}
-.helper-box {
-  display: flex;
-  border: 2px solid var(--border-line);
-  width: 50%;
-  height: 15vw;
-  margin: auto;
-}
-/* LEFT HELP  */
-.left-help {
-  width: 30%;
-  float: left;
-}
-
-.left-help img {
-  position: absolute;
-  width: 9%;
-  height: 26vw;
-  bottom: 0; 
-  transition: all 0.8s;
-}
-.left-help img:hover {
-  transform: scale(1.2);
-}
-/* RIGHT HELP  */
-.right-help {
-  width: 60%;
-  float: right;
-}
-.right-help h4 {
-  font-size: 3vw;
-  font-weight: 200;
-  margin-top: 2vw;
-  color: var(--text-color-white);
-}
-.right-help p {
-  font-size: 1.5vw;
-  color: var(--text-color-white);
-  margin-top: 1vw;
-}
-
-/* TALK BUTTON  */
-.button-talk input {
-  margin-top: 0.4vw;
-  width: 60%;
-  height: 2.4vw;
-  display: flex;
-  outline: none;
-  background: transparent;
-  color: var(--text-color-white);
-  border: 1px solid var(--border-line);
-  border-radius: 5px;
-}
-
-.button-talk {
-  display: flex;
-  margin-top: 2vw;
-}
-.talk-start {
-  background-color: var(--black-background);
-  border: 1px solid var(--border-line);
-  width: 10vw;
-  height: 3vw;
-  color: var(--text-color-white);
-  font-size: 1.2vw;
-  border-radius: 2vw;
-  margin-left: 1vw;
-  transition: all 0.8s, color 0.3s 0.3s;
-}
-.talk-start:hover {
-  box-shadow: 1vw 4vw 1vw 1vw var(--border-line) inset;
-  color: var(--hover-text-black);
-  cursor: pointer;
-}
-
 /* FOOTER RIGHT  */
 .footer-right {
   width: 50%;
@@ -273,6 +167,7 @@ body {
 .footer-right ul {
   position: relative;
   float: right;
+  
 }
 .footer-right ul:hover {
   cursor: pointer;
@@ -282,6 +177,7 @@ body {
   list-style-type: none;
   margin: 2vw;
   max-width: max-content;
+  
 }
 .footer-right ul li::after {
   content: "";
@@ -295,4 +191,5 @@ body {
 }
 .footer-right ul li:hover::after {
   width: 100%;
+  
 }
