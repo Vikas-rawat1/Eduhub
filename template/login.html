@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <link rel="shortcut icon" type="x-icon" href="../images/logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registration Page</title>
+  <title>Login Page</title>
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
   <link rel="stylesheet" href="../css/register.css">
   <link rel="stylesheet" href="../css/color.css">
@@ -25,26 +25,21 @@
         <form action="connection.php" method="POST">
           <div class="input-field">
             <label>Username</label>
-            <input type="text" name="name" class="input-tag" id="uname" required>
+            <input type="text" name="name" class="input-tag" id="loginname"  required>
           </div>
           <div class="input-field">
             <label>Password</label>
-            <input type="text" name="pass" class="input-tag" id="upass" required>
+            <input type="text" name="pass" class="input-tag" id="loginpass"  required>
           </div>
-          <div class="input-field">
-            <label>Confirm Password</label>
-            <input type="text" class="input-tag" name="confirm" id="ucpass" required>
-          </div>
-          <input type="submit" name="btn" class="submit-btn" onclick="return registerValidation()">
+          <input type="submit" name="btn" class="submit-btn" onclick="return loginValidation()">
         </form>
       </div>
 
-
-       <div class="login-link">
-        <p>Already a Member?</p>
-        <a href="../template/login.html">Login Here</a>
+      <div class="login-link">
+        <p>Not a Member?</p>
+        <a href="../template/register.html">Register Here</a>
       </div>
- 
+
       <div class="register-through">
         <a href=""><i class="ri-google-fill"></i></a>
         <a href=""><i class="ri-github-fill"></i></i></a>
@@ -56,4 +51,5 @@
 
 </body>
 <script src="../js/validation.js"></script>
+
 </html>

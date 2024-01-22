@@ -33,7 +33,7 @@ body {
   color: var(--text-color-white);
   border-radius: 6px;
   margin: auto;
-  height: 30vw;
+  height: 33vw;
   width: 30%;
 }
 .all-field {
@@ -76,6 +76,19 @@ body {
   cursor: pointer;
 }
 
+/* LOGIN LINK  */
+
+.login-link{
+  display: flex;
+  margin-top: 4vw;
+  justify-content: center;
+  gap: 1vw;
+}
+.login-link a{
+  text-decoration: none;
+  color: dodgerblue;
+}
+
 /*REGISTER-THROUGH */
 .register-through {
   display: flex;
@@ -84,7 +97,7 @@ body {
   align-items: center;
   font-size: 3vw;
   gap: 3vw;
-  margin-top: 5vw;
+  margin-top: 3vw;
   position: relative;
 }
 
