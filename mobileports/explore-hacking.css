@@ -1,0 +1,81 @@
+@media (max-width: 900px) {
+  .logo {
+    margin: 4vw;
+    font-size: 5vw;
+  }
+  .left h6 {
+    font-size: 2.3vw;
+  }
+  .list-items {
+    display: none;
+  }
+
+  /* HERO SECITON  */
+
+  .left-right-development {
+    display: block;
+  }
+
+  .left-development {
+    width: 100%;
+  }
+  .right-development {
+    width: 100%;
+  }
+
+  .right-development h1 {
+    font-size: 4vw;
+  }
+  .right-development p {
+    font-size: 3vw;
+    line-height: 3.4vw;
+    width: 100%;
+  }
+
+  .start-with {
+    width: 20vw;
+    height: 5vw;
+    font-size: 2.2vw;
+    top: 1vw;
+    bottom: 2vw;
+  }
+
+  .start-with i {
+    font-size: 3.2vw;
+  }
+
+  /* FOOTER SECTION  */
+
+  /* FOTOTER CONNECTION  */
+  .footer-connection {
+    font-size: 10vw;
+  }
+
+  /* FOOTER LEFT  */
+  .footer-list {
+    display: inline-block;
+  }
+  .footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw auto;
+    width: 100%;
+  }
+  .subscribe {
+    margin-top: 4vw;
+  }
+  .subscribe h4 {
+    font-size: 3vw;
+    margin: auto;
+  }
+  .footer-right {
+    width: 100%;
+    display: flex;
+  }
+  .footer-right ul {
+    font-size: 3.6vw;
+    margin: auto;
+    margin-bottom: 6vw;
+  }
+}

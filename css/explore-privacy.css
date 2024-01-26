@@ -106,7 +106,7 @@ body {
 /* LEARN MORE BUTTON  */
 
 .button-learn {
-  /* display: flex; */
+  display: flex;
   margin-top: 2vw;
 }
 .button-learn img{
@@ -121,6 +121,7 @@ body {
   color: var(--text-color-white);
   font-size: 1.2vw;
   margin-left: 1vw;
+  margin-top: 2vw;
   border-radius: 2vw;
   transition: all 0.8s, color 0.3s 0.3s;
 }
@@ -130,7 +131,10 @@ body {
   color: var(--hover-text-black);
   cursor: pointer;
 }
-
+.start-with i{
+  font-size: 1.2vw;
+  color: var(--text-color-white);
+}
 /* FOOTER SECTION  */
 
 /* FOOTER LIST  */

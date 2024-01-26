@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/color.css">
+  <link rel="stylesheet" href="mobileports/index-port.css">
 
 </head>
 
@@ -17,13 +18,26 @@
   <div class="container">
     <div class="header">
       <div class="logo">Eduhub</div>
+      <!-- MOBILE MENU  -->
+
+      <div class="menu-icon" id="mobile-menu" onclick="sideOpen()" style="width: 0;">
+        <i class="ri-menu-3-line"></i>
+      
+      </div>
+      <div class="side-panel" id="side-panel">
+        <!-- Your side panel content goes here -->
+        <p>Side Panel Content</p>
+        <i class="ri-arrow-left-line" onclick="sideClose()"></i>
+      </div>
+      <!-- -------------------------- -->
+  
       <div class="list-items">
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="template/about.html">ABOUT</a></li>
           <!-- <li><a href="#">CLASS</a></li>
             <li><a href="#">TRAINER</a></li> -->
-            <li><a href="template/blog.html">BLOG</a></li>
+          <li><a href="template/blog.html">BLOG</a></li>
           <li><a href="#footer-contact">CONTACT</a></li>
           <li><a href="#service-contact">SERVICE</a></li>
         </ul>
@@ -82,8 +96,8 @@
           exceptional experience.
         </p>
         <div class="buttons">
-          <a href="template/explore-development.html"><button class="btn-col2">Explore <i class="fa-solid fa-arrow-right"
-                style="color: #B197FC;"></i></button></a>
+          <a href="template/explore-development.html"><button class="btn-col2">Explore <i
+                class="fa-solid fa-arrow-right" style="color: #B197FC;"></i></button></a>
         </div>
       </div>
       <div class="right-campus-col2">
@@ -171,9 +185,13 @@
         </ul>
       </div>
     </div>
+    <div class="copyright">
+      <p>© 2024 All rights reserved to Eduhub
+    </div>
   </div>
 </body>
 
 <script src="js/move.js"></script>
+<script src="js/side-nav.js"></script>
 
 </html>

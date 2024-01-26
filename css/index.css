@@ -20,14 +20,6 @@ html{
   display: flex;
   justify-content: space-between;
 }
-  /* 
-  .navbar {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    background-color: #deb5b5;
-    border: none;
-  } */
 
 .logo {
   margin: 2vw;
@@ -70,10 +62,20 @@ html{
   text-decoration: none;
   color: var(--text-color-white);
 }
-
+/* MENU ICON  */
+.menu-icon{
+  display: none;
+}
+#close{
+  display: none;
+}
+.side-panel{
+  display: none;
+}
 .buttons-register {
   display: flex;
   margin-top: 2vw;
+  
 }
 .register {
   background-color: var(--black-background);
@@ -426,4 +428,14 @@ transform: scale(1.2);
 .footer-right ul li:hover::after {
   width: 100%;
 }
+.copyright{
+  color: var(--text-color-white);
+  display: block;
+}
 
+.copyright p{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -81,7 +81,7 @@ body {
   background-color: var(--black-background);
   color: var(--text-color-white);
 }
-.c-image img {
+.course-image img {
   position: absolute;
   left: 40vw;
   width: 6%;

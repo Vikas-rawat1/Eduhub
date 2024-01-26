@@ -1,0 +1,118 @@
+@media (max-width: 900px) {
+  .logo {
+    margin: 4vw;
+    font-size: 5vw;
+  }
+  .left h6 {
+    font-size: 2.3vw;
+  }
+  .list-items {
+    display: none;
+  }
+  /* HERO HEAD  */
+  .course-image img {
+    display: none;
+  }
+
+  .courses-navbar {
+    margin-top: 4vw;
+    line-height: 10vw;
+
+  }
+  .courses-navbar .buttons{
+    width: 100%;
+    margin: auto ;
+  }
+
+  .btn {
+    width: 30vw;
+    height: 5vw;
+    font-size: 2.6vw;
+    position: relative;
+  }
+  /* COURSES-CONTAINER */
+  .courses-container {
+    display: block;
+  }
+
+  .course-box {
+    border: 2px solid var(--border-line);
+    height: 30vw;
+    width: 80%;
+    margin: 4vw auto;
+  }
+
+  /* LEFT COURSE  */
+  .left-course {
+    float: left;
+    width: 50%;
+  }
+  .left-course img {
+    float: left;
+    width: 70%;
+    margin: 1vw auto;
+  }
+
+  /* RIGHT COURSE  */
+  .right-course {
+    float: right;
+    width: 50%;
+  }
+  .right-course h5 {
+    font-size: 3vw;
+    margin-top: 1vw;
+    height: 5vw;
+  }
+  .right-course p {
+    font-size: 3vw;
+    margin-top: 2vw;
+  }
+  .right-course .price {
+    font-size: 3vw;
+  }
+  .enroll {
+    width: 15vw;
+    height: 5vw;
+    font-size: 2vw;
+    position: relative;
+  }
+  /* DOWNLOAD CURRICULAM  */
+  .enroll-button a i {
+    font-size: 4vw;
+  }
+
+  /* FOOTER SECTION  */
+
+  /* FOTOTER CONNECTION  */
+  .footer-connection {
+    font-size: 10vw;
+  }
+
+  /* FOOTER LEFT  */
+  .footer-list {
+    display: inline-block;
+  }
+  .footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw auto;
+    width: 100%;
+  }
+  .subscribe {
+    margin-top: 4vw;
+  }
+  .subscribe h4 {
+    font-size: 3vw;
+    margin: auto;
+  }
+  .footer-right {
+    width: 100%;
+    display: flex;
+  }
+  .footer-right ul {
+    font-size: 3.6vw;
+    margin: auto;
+    margin-bottom: 6vw;
+  }
+}

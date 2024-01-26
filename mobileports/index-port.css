@@ -1,0 +1,143 @@
+@media (max-width: 900px) {
+  .logo {
+    margin: 4vw;
+    font-size: 5vw;
+  }
+  .left h6 {
+    font-size: 2.3vw;
+  }
+  .list-items {
+    display: none;
+  }
+  .menu-icon i {
+    float: right;
+  }
+  .menu-icon {
+    display: initial;
+    color: var(--text-color-white);
+    margin: 2vw;
+    font-size: 8vw;
+    position: fixed;
+    width: 90%;
+    height: 100vh;
+    z-index: 1;
+    right: 0;
+    background-color: red;
+  }
+  .menu-icon {
+    display: initial;
+    color: var(--text-color-white);
+    margin: 2vw;
+    font-size: 8vw;
+    position: fixed;
+    width: 90%;
+    height: 100vh;
+    z-index: 1;
+    right: 0;
+    background-color: red;
+  }
+
+  .side-panel {
+    display: initial;
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 10vw;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+  }
+  
+  .side-panel i {
+    font-size: 2em;
+    /* cursor: pointer; */
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    
+  }
+  
+  .side-panel.open {
+    width: 250px;
+  }
+  
+  .side-panel p {
+    padding: 10px;
+  }
+  #close{
+    display: initial;
+    color: green;
+    position: absolute;
+    right: 20vw;
+  }
+
+
+  .btn1 {
+    width: 15vw;
+    height: 5vw;
+    font-size: 2.2vw;
+    top: 1vw;
+  }
+
+  .btn-col1,
+  .btn-col2,
+  .btn-col3,
+  .btn-col4 {
+    width: 15vw;
+    height: 5vw;
+    font-size: 2.2vw;
+    top: 4vw;
+    position: relative;
+  }
+
+  /* col1 AND col3 */
+
+  .right-campus-col1 p,
+  .right-campus-col3 p {
+    font-size: 2.3vw;
+  }
+  /* col2 and col4*/
+  .left-campus-col2 p,
+  .left-campus-col4 p {
+    font-size: 2.3vw;
+  }
+
+  /* FOOTER SECTION  */
+
+  /* FOTOTER CONNECTION  */
+  .footer-connection {
+    font-size: 10vw;
+  }
+
+  /* FOOTER LEFT  */
+  .footer-list {
+    display: inline-block;
+  }
+  .footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw auto;
+    width: 100%;
+  }
+  .subscribe {
+    margin-top: 4vw;
+  }
+  .subscribe h4 {
+    font-size: 3vw;
+    margin: auto;
+  }
+  .footer-right {
+    width: 100%;
+    display: flex;
+  }
+  .footer-right ul {
+    font-size: 3.6vw;
+    margin: auto;
+    margin-bottom: 6vw;
+  }
+}
