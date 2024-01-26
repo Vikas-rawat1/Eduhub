@@ -336,9 +336,7 @@ body {
   position: relative;
   float: right;
 }
-.footer-right ul:hover {
-  cursor: pointer;
-}
+
 .footer-right ul li {
   position: relative;
   list-style-type: none;
@@ -357,4 +355,5 @@ body {
 }
 .footer-right ul li:hover::after {
   width: 100%;
+  cursor: pointer;
 }

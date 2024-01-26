@@ -400,9 +400,7 @@ html {
   position: relative;
   float: right;
 }
-.footer-right ul:hover {
-  cursor: pointer;
-}
+
 .footer-right ul li {
   position: relative;
   list-style-type: none;
@@ -421,6 +419,7 @@ html {
 }
 .footer-right ul li:hover::after {
   width: 100%;
+  cursor: pointer;
 }
 .copyright {
   color: var(--text-color-white);
