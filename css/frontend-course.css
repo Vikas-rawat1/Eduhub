@@ -76,6 +76,15 @@ body {
   color: var(--text-color-white);
 }
 
+/* MENU ICON  */
+#menuBtn {
+  display: none;
+}
+#sidenav {
+  display: none;
+}
+
+
 /* HERO HEAD  */
 .hero-head {
   margin-top: 2vw;

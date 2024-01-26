@@ -65,6 +65,14 @@ body {
   color: var(--text-color-white);
 }
 
+/* MENU ICON  */
+#menuBtn {
+  display: none;
+}
+#sidenav {
+  display: none;
+}
+
 
 /* HERO SECITON  */
 .hero-section{

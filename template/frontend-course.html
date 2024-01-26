@@ -17,6 +17,19 @@
   <div class="header-container">
     <div class="header">
       <div class="logo">Eduhub</div>
+      <!-- MOBILE MENU  -->
+      <nav id="sidenav">
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="../template/about.html">ABOUT</a></li>
+          <li><a href="../template/blog.html">BLOG</a></li>
+          <li><a href="#footer-contact">CONTACT</a></li>
+          <li><a href="#service-contact">SERVICE</a></li>
+        </ul>
+      </nav>
+      <i class="ri-menu-3-line" id="menuBtn" onclick="show()"></i>
+      <!-- -----------  -->
+
       <div class="list-items">
         <ul>
           <li><a href="../index.html">HOME</a></li>
@@ -75,34 +88,34 @@
       </div>
     </div>
 
-        <!-- COURSE BOX 2 -->
-        <div class="course-box">
-          <div class="left-course">
-            <img src="../images/backend.svg" alt="">
-          </div>
-          <div class="right-course">
-            <h5>Back-End with Node.js</h5>
-            <p>Behind The Scene</p>
-            <div class="rating">
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-half-line"></i>
-            </div>
-            <div class="price">
-              ₹6999
-            </div>
-            <div class="enroll-button">
-              <a href="#"><button class="enroll" onclick="openPopup()">ENROLL</button></a>
-              <a href="" download="curriculam.png"><i class="ri-file-download-fill"></i></a>
-            </div>
-          </div>
+    <!-- COURSE BOX 2 -->
+    <div class="course-box">
+      <div class="left-course">
+        <img src="../images/backend.svg" alt="">
+      </div>
+      <div class="right-course">
+        <h5>Back-End with Node.js</h5>
+        <p>Behind The Scene</p>
+        <div class="rating">
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-half-line"></i>
         </div>
+        <div class="price">
+          ₹6999
+        </div>
+        <div class="enroll-button">
+          <a href="#"><button class="enroll" onclick="openPopup()">ENROLL</button></a>
+          <a href="" download="curriculam.png"><i class="ri-file-download-fill"></i></a>
+        </div>
+      </div>
+    </div>
   </div>
 
-   <!-- POPUP CONTENT START  -->
-   <div class="popup" id="enrollPopup">
+  <!-- POPUP CONTENT START  -->
+  <div class="popup" id="enrollPopup">
     <div class="popup-content">
       <span class="close" onclick="closePopup()">&times;</span>
       <h1>Eduhub Payment</h1>
@@ -176,12 +189,9 @@
     </div>
   </div>
   <!-- </div> -->
-
-
-
-
 </body>
 <script src="../js/move.js"></script>
 <script src="../js/popup.js"></script>
+<script src="../js/side-nav.js"></script>
 
 </html>

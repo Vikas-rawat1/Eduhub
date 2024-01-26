@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 .container {
@@ -12,7 +12,7 @@ html{
   color: var(--text-color-white);
 }
 
-::selection{
+::selection {
   background-color: var(--text-color-heading);
 }
 
@@ -63,19 +63,16 @@ html{
   color: var(--text-color-white);
 }
 /* MENU ICON  */
-.menu-icon{
+#menuBtn {
   display: none;
 }
-#close{
+#sidenav {
   display: none;
 }
-.side-panel{
-  display: none;
-}
+
 .buttons-register {
   display: flex;
   margin-top: 2vw;
-  
 }
 .register {
   background-color: var(--black-background);
@@ -179,7 +176,7 @@ html{
   transition: all 0.8s;
 }
 .right img:hover {
-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 /* CAMPUS TOUR  */
@@ -371,7 +368,6 @@ transform: scale(1.2);
   color: var(--text-color-white);
   margin-top: 2vw;
   border-top: 2px solid var(--border-line);
-  
 }
 
 /* FOOTER LEFT  */
@@ -393,14 +389,12 @@ transform: scale(1.2);
   border: 2px solid var(--border-line);
   outline: none;
   margin-left: 1vw;
-  
 }
 
 /* FOOTER RIGHT  */
 .footer-right {
   width: 50%;
   float: right;
-
 }
 .footer-right ul {
   position: relative;
@@ -428,12 +422,12 @@ transform: scale(1.2);
 .footer-right ul li:hover::after {
   width: 100%;
 }
-.copyright{
+.copyright {
   color: var(--text-color-white);
   display: block;
 }
 
-.copyright p{
+.copyright p {
   margin: auto;
   display: flex;
   justify-content: center;

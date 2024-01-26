@@ -1,9 +1,12 @@
-function sideOpen() {
-  let open = document.getElementById("mobile-menu");
-  open.style.width = "90%";
+let menuBtn = document.getElementById("menuBtn")
+let sidenav = document.getElementById("sidenav")
+sidenav.style.right = "-100%"
 
-}
-function sideClose() {
-  let open = document.getElementById("mobile-menu");
-  open.style.width = "0";
+function show() {
+  if (sidenav.style.right == "-100%") {
+    sidenav.style.right = "0%"
+  }
+  else {
+    sidenav.style.right = "-100%"
+  }
 }

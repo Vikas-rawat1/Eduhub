@@ -10,6 +10,38 @@
     display: none;
   }
 
+  /* MOBILE MENU  */
+  #sidenav {
+    display: initial;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: var(--black-background);
+    z-index: 2;
+    transition: 1s;
+    margin-top: 2vw;
+  }
+ 
+nav ul li {
+    list-style-type: none;
+    margin: 10vw 4vw;
+  }
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  #menuBtn {
+    display: initial;
+    position: fixed;
+    right: 2vw;
+    top: 0;
+    z-index: 2;
+    margin-top: 3vw;
+    font-size: 7vw;
+  }
+
   /* HERO SECITON  */
 
   .left-right-development {
