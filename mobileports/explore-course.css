@@ -16,7 +16,7 @@
     width: 80%;
     height: 100vh;
     position: fixed;
-   right: -100%;
+    right: -100%;
     top: 0;
     background-color: var(--black-background);
     z-index: 2;

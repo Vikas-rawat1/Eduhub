@@ -1,0 +1,56 @@
+@media (max-width: 900px) {
+  .heading {
+    font-size: 8vw;
+  }
+  .form-image img {
+    width: 30%;
+    margin-left: 17vw;
+    margin-top: 18vw;
+    height: 30vw;
+    position: absolute;
+  }
+  .form {
+    height: 100vw;
+    width: 75%;
+    margin-top: 20vw;
+  }
+
+  .input-tag {
+    height: 6vw;
+  }
+  .form .input-field {
+    margin-top: 10vw;
+    margin-left: 5vw;
+  }
+
+  .submit-btn {
+    width: 15vw;
+    height: 5vw;
+    font-size: 4.2vw;
+    margin-left: 30vw;
+    top: 7vw;
+  }
+  .submit-btn:hover {
+    box-shadow: 1vw 4vw 1vw 1vw #fff inset;
+    color: var(--hover-text-black);
+    cursor: pointer;
+  }
+
+  /* LOGIN LINK  */
+
+  .login-link {
+    display: flex;
+    margin-top: 12vw;
+    justify-content: center;
+    gap: 1vw;
+  }
+  .login-link a {
+    text-decoration: none;
+    color: dodgerblue;
+  }
+  /*REGISTER-THROUGH */
+  .register-through {
+    margin-top: 5vw;
+    font-size: 8vw;
+  }
+}
