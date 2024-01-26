@@ -16,19 +16,18 @@
     width: 80%;
     height: 100vh;
     position: fixed;
-   right: -100%;
+    right: -100%;
     top: 0;
     background-color: var(--black-background);
     z-index: 2;
     transition: 1s;
-    margin-top: 2vw;
   }
- 
-nav ul li {
+
+  nav ul li {
     list-style-type: none;
     margin: 10vw 4vw;
   }
-nav ul li a {
+  nav ul li a {
     text-decoration: none;
     color: #fff;
   }
