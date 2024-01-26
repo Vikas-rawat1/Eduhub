@@ -360,3 +360,15 @@ body {
   width: 100%;
   cursor: pointer;
 }
+.copyright {
+  color: var(--text-color-white);
+  display: block;
+}
+
+.copyright p {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw;
+}
