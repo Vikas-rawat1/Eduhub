@@ -369,3 +369,43 @@ body {
   align-items: center;
   padding: 2vw;
 }
+/* SCROLL UP BUTTON  */
+.up-btn {
+ background-color: var(--black-background);
+  display: flex;
+  float: right;
+  width: 100%;
+  position: relative;
+
+}
+.up-btn img {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  height: 4vw;
+}
+.up-btn:hover {
+ cursor: pointer;
+}
+/* SCROLL UP BUTTON  */
+.up-btn {
+ background-color: var(--black-background);
+  display: flex;
+  float: right;
+  width: 100%;
+  position: relative;
+
+}
+.up-btn img {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  height: 4vw;
+}
+.up-btn:hover {
+ cursor: pointer;
+}

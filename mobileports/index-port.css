@@ -104,4 +104,15 @@
     margin: auto;
     margin-bottom: 6vw;
   }
+  /* SCROLL UP BUTTON  */
+  .up-btn {
+     height: 15vw;
+   }
+  .up-btn img {
+    right: 2vw;
+    height: 15vw;
+  }
+  .up-btn:hover {
+    cursor: not-allowed;
+  }
 }

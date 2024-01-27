@@ -8,7 +8,7 @@ body {
   background-color: var(--black-background);
 }
 
-::selection{
+::selection {
   background-color: var(--text-color-heading);
 }
 
@@ -78,13 +78,13 @@ body {
 
 /* LOGIN LINK  */
 
-.login-link{
+.login-link {
   display: flex;
   margin-top: 4vw;
   justify-content: center;
   gap: 1vw;
 }
-.login-link a{
+.login-link a {
   text-decoration: none;
   color: dodgerblue;
 }

@@ -20,20 +20,21 @@
     width: 80%;
     height: 100vh;
     position: fixed;
-   right: -100%;
+    right: -100%;
     top: 0;
     background-color: var(--black-background);
     z-index: 2;
     transition: 1s;
   }
- 
-nav ul li {
+
+  nav ul li {
     list-style-type: none;
     margin: 10vw 4vw;
   }
-nav ul li a {
+  nav ul li a {
     text-decoration: none;
     color: #fff;
+    cursor: not-allowed;
   }
   #menuBtn {
     display: initial;
@@ -48,11 +49,10 @@ nav ul li a {
   .courses-navbar {
     margin-top: 4vw;
     line-height: 10vw;
-
   }
-  .courses-navbar .buttons{
+  .courses-navbar .buttons {
     width: 100%;
-    margin: auto ;
+    margin: auto;
   }
 
   .btn {
@@ -145,5 +145,15 @@ nav ul li a {
     font-size: 3.6vw;
     margin: auto;
     margin-bottom: 6vw;
+  }
+  /* SCROLL UP BUTTON  */
+  .up-btn img {
+    right: 4vw;
+    top: 2vw;
+    bottom: 10vw;
+    height: 15vw;
+  }
+  .up-btn:hover {
+    cursor: not-allowed;
   }
 }

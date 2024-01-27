@@ -30,6 +30,7 @@
   nav ul li a {
     text-decoration: none;
     color: #fff;
+    cursor: not-allowed;
   }
   #menuBtn {
     display: initial;
@@ -109,4 +110,15 @@
     margin: auto;
     margin-bottom: 6vw;
   }
+    /* SCROLL UP BUTTON  */
+.up-btn img {
+  right: 4VW;
+  top: 2VW;
+  bottom: 10VW;
+  height: 15vw;
+}
+.up-btn:hover {
+ cursor: not-allowed;
+}
+
 }
