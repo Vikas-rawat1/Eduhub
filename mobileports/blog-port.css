@@ -40,112 +40,137 @@
     margin-top: 3vw;
     font-size: 7vw;
   }
-  /* HERO SECTION  */
-  .left-right-hero {
-    display: block;
-  }
-  .left-hero {
-    float: left;
-    width: 100%;
-    display: block;
-  }
-  .left-hero p {
-    width: 80%;
-    font-size: 5vw;
-  }
 
-  .right-hero {
-    float: right;
+  /* HERO SECTION  */
+  .hero-left-right {
+    display: block;
+  }
+  /* HERO LEFT  */
+  .hero-left {
     width: 100%;
   }
-  .right-hero img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-bottom: 10vw;
+  .hero-left h4 {
+    color: var(--text-color-white);
+    margin: 2vw 8vw;
+    font-size: 3vw;
+    text-wrap: wrap;
+  }
+  .hero-left p {
+    line-height: 5vw;
   }
 
   /* GET-START BUTTON  */
+
   .get-start {
-    width: 90%;
-    height: 5vw;
+    width: 22vw;
+    height: 6vw;
     font-size: 3.2vw;
   }
-  /* WORK DEFINE */
 
-  .define-head h4 {
-    margin-top: 20vw;
-    text-align: center;
-  }
-
-  .define-head p {
-    font-size: 4vw;
-    width: 50%;
-  }
-  span {
-    font-size: 8vw;
-  }
-  .info {
-    margin-top: 10vw;
-    /* margin-bottom: 1vw; */
-  }
-
-  .info img {
-    text-align: center;
-    height: 5vw;
-  }
-
-  /* WHO WE ARE  */
-
-  .left-right-know-us {
-    display: flex;
-    margin: 2vw;
-  }
-
-  /* LEFT-KNOW-US  */
-  .know-us {
-    margin-top: 10vw;
-  }
-  .left-know-us {
-    float: left;
-    width: 50%;
-  }
-  .left-know-us img {
-    width: 65%;
-    margin-left: 10vw;
-  }
-  /* RIGHT-KNOW-US  */
-  .right-know-us {
-    float: right;
-    width: 50%;
-  }
-  .right-know-us h6 {
-    font-size: 4%;
-  }
-  .right-know-us h6::after {
-    width: 20%;
-    height: 0.1vw;
-  }
-  .right-know-us h3 {
-    width: 100%;
-    font-size: 8vw;
-  }
-  .right-know-us p {
-    width: 100%;
+  i {
     font-size: 3vw;
   }
-  /* LEARN MORE BUTTON  */
+  /* HERO RIGHT  */
+  .hero-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 10vw;
+  }
+  .hero-right img {
+    width: 80%;
+    margin-left: 5vw;
+  }
 
-  .button-learn img {
+  /* BOXES */
+  .boxes {
     display: none;
   }
-  .learn-more {
-    width:50%;
-    height: 5vw;
-    font-size: 3.2vw;
+
+  /* CUSTOMER REVIEW  */
+  .review-container {
+    margin-top: 20vw;
+    gap: 2vw;
   }
-  .learn-more i {
-  font-size: 3vw;
+  .review-head {
+    font-size: 7vw;
   }
+
+  .review-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw 9vw;
+    gap: 2vw;
+  }
+  .customer-review {
+    width: 100%;
+    height: 50vw;
+  }
+  .customer-review:hover {
+    cursor: not-allowed;
+  }
+  .customer-review p {
+    margin-left: 3vw;
+  }
+
+  .customer-img img {
+    height: 10vw;
+  }
+  .customer-img .customer-name {
+    margin-top: 2vw;
+    margin-left: 4vw;
+  }
+  .customer-img .profession {
+    margin-top: 8vw;
+   left: 14vw;
+  }
+
+  
+/* HELPER DESK  */
+.helper-desk {
+  margin-top: 10vw;
+  position: relative;
+}
+.helper-box {
+  width: 70%;
+  height: 25vw;
+}
+/* LEFT HELP  */
+.left-help {
+  width: 30%;
+  float: left;
+}
+
+.left-help img {
+  height: 30vw;
+}
+
+/* RIGHT HELP  */
+.right-help {
+    width: 80%;
+    height: 20vw;
+}
+.right-help h4 {
+  font-size: 5vw;
+}
+.right-help p {
+  font-size: 2.5vw;
+  margin-top: 2vw;
+}
+
+/* TALK BUTTON  */
+.button-talk input {
+  width: 60%;
+  height: 6vw;
+}
+
+.talk-start {
+  width: 15vw;
+  height: 6vw;
+  font-size: 4vw;
+  margin-top: .6vw;
+}
+
+i{
+  /* font-size: 2vw; */
+}
 }

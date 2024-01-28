@@ -141,11 +141,11 @@
     display: none;
   }
   .learn-more {
-    width:50%;
+    width: 50%;
     height: 5vw;
     font-size: 3.2vw;
   }
-  .learn-more i {
-  font-size: 3vw;
+  i {
+    font-size: 3vw;
   }
 }
