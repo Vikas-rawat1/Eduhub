@@ -1,0 +1,151 @@
+@media (max-width: 900px) {
+  .logo {
+    margin: 4vw;
+    font-size: 5vw;
+  }
+  .left h6 {
+    font-size: 2.3vw;
+  }
+  .list-items {
+    display: none;
+  }
+  /* MOBILE MENU  */
+
+  #sidenav {
+    display: initial;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    background-color: var(--black-background);
+    z-index: 2;
+    transition: 1s;
+  }
+  nav ul li {
+    list-style-type: none;
+    margin: 10vw 4vw;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    cursor: not-allowed;
+  }
+  #menuBtn {
+    display: initial;
+    position: fixed;
+    right: 2vw;
+    top: 0;
+    z-index: 2;
+    margin-top: 3vw;
+    font-size: 7vw;
+  }
+  /* HERO SECTION  */
+  .left-right-hero {
+    display: block;
+  }
+  .left-hero {
+    float: left;
+    width: 100%;
+    display: block;
+  }
+  .left-hero p {
+    width: 80%;
+    font-size: 5vw;
+  }
+
+  .right-hero {
+    float: right;
+    width: 100%;
+  }
+  .right-hero img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10vw;
+  }
+
+  /* GET-START BUTTON  */
+  .get-start {
+    width: 90%;
+    height: 5vw;
+    font-size: 3.2vw;
+  }
+  /* WORK DEFINE */
+
+  .define-head h4 {
+    margin-top: 20vw;
+    text-align: center;
+  }
+
+  .define-head p {
+    font-size: 4vw;
+    width: 50%;
+  }
+  span {
+    font-size: 8vw;
+  }
+  .info {
+    margin-top: 10vw;
+    /* margin-bottom: 1vw; */
+  }
+
+  .info img {
+    text-align: center;
+    height: 5vw;
+  }
+
+  /* WHO WE ARE  */
+
+  .left-right-know-us {
+    display: flex;
+    margin: 2vw;
+  }
+
+  /* LEFT-KNOW-US  */
+  .know-us {
+    margin-top: 10vw;
+  }
+  .left-know-us {
+    float: left;
+    width: 50%;
+  }
+  .left-know-us img {
+    width: 65%;
+    margin-left: 10vw;
+  }
+  /* RIGHT-KNOW-US  */
+  .right-know-us {
+    float: right;
+    width: 50%;
+  }
+  .right-know-us h6 {
+    font-size: 4%;
+  }
+  .right-know-us h6::after {
+    width: 20%;
+    height: 0.1vw;
+  }
+  .right-know-us h3 {
+    width: 100%;
+    font-size: 8vw;
+  }
+  .right-know-us p {
+    width: 100%;
+    font-size: 3vw;
+  }
+  /* LEARN MORE BUTTON  */
+
+  .button-learn img {
+    display: none;
+  }
+  .learn-more {
+    width:50%;
+    height: 5vw;
+    font-size: 3.2vw;
+  }
+  .learn-more i {
+  font-size: 3vw;
+  }
+}

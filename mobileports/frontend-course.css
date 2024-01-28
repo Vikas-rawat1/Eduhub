@@ -111,49 +111,4 @@
   .enroll-button a i {
     font-size: 4vw;
   }
-
-  /* FOOTER SECTION  */
-
-  /* FOTOTER CONNECTION  */
-  .footer-connection {
-    font-size: 10vw;
-  }
-
-  /* FOOTER LEFT  */
-  .footer-list {
-    display: inline-block;
-  }
-  .footer-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2vw auto;
-    width: 100%;
-  }
-  .subscribe {
-    margin-top: 4vw;
-  }
-  .subscribe h4 {
-    font-size: 3vw;
-    margin: auto;
-  }
-  .footer-right {
-    width: 100%;
-    display: flex;
-  }
-  .footer-right ul {
-    font-size: 3.6vw;
-    margin: auto;
-    margin-bottom: 6vw;
-  }
-  /* SCROLL UP BUTTON  */
-  .up-btn img {
-    right: 4vw;
-    top: 2vw;
-    bottom: 10vw;
-    height: 15vw;
-  }
-  .up-btn:hover {
-    cursor: not-allowed;
-  }
 }
