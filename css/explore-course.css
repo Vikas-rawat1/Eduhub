@@ -9,13 +9,11 @@ html{
 }
 body {
   background-color: var(--black-background);
+  color: var(--text-color-white);
+  transition: background 0.8s, color 0.8s ;
 }
 ::selection {
   background-color: var(--text-color-heading);
-}
-.header-container {
-  background-color: var(--black-background);
-  color: var(--text-color-white);
 }
 .header {
   display: flex;
@@ -51,6 +49,7 @@ body {
   list-style: none;
   margin: 1vw;
   position: relative;
+  
 }
 
 .list-items ul li::after {
@@ -69,8 +68,14 @@ body {
 }
 
 .list-items ul li a {
+  color: red;
   text-decoration: none;
   color: var(--text-color-white);
+}
+.list-items ul li a::after{
+  /* color: red; */
+  /* text-decoration: none; */
+  color: red;
 }
 
 /* MENU ICON  */
@@ -85,8 +90,8 @@ body {
 .hero-head {
   margin-top: 2vw;
   text-align: center;
-  background-color: var(--black-background);
-  color: var(--text-color-white);
+  /* background-color: var(--black-background); */
+  /* color: var(--text-color-white); */
 }
 
 .course-image img {
@@ -133,8 +138,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2vw;
-  background-color: var(--black-background);
-  color: var(--text-color-white);
+  /* background-color: var(--black-background);
+  color: var(--text-color-white); */
 }
 .course-box {
   border-top: 2px solid var(--border-line);
@@ -274,13 +279,13 @@ body {
 }
 
 .payment-btn {
-  background-color: var(--black-background);
+  /* background-color: var(--black-background); */
   border-top: 1px solid var(--border-top);
   border-left: 1px solid var(--border-bottom);
   width: 15vw;
   height: 3vw;
   top: 1vw;
-  color: var(--text-color-white);
+  /* color: var(--text-color-white); */
   font-size: 1.2vw;
   border-radius: 6px;
   margin-left: 8vw;
@@ -301,7 +306,7 @@ body {
 /* FOOTER LIST  */
 .footer-list {
   display: flex;
-  color: var(--text-color-white);
+  /* color: var(--text-color-white); */
   margin-top: 2vw;
   border-top: 2px solid var(--border-line);
 }
