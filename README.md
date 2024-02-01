@@ -1,6 +1,6 @@
 # Responsive landing page of Educational website
 
-A simple landing page built with HTML, CSS, and JavaScript.
+Full website with functionality  built with HTML, CSS, and JavaScript.
 
 ## Features
 
