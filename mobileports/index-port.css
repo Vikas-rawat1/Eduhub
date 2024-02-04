@@ -30,7 +30,6 @@
     text-decoration: none;
     color: #fff;
     cursor: not-allowed;
-
   }
   #menuBtn {
     display: initial;
@@ -40,7 +39,6 @@
     z-index: 2;
     margin-top: 3vw;
     font-size: 7vw;
-    
   }
 
   .btn1 {
@@ -109,8 +107,8 @@
   }
   /* SCROLL UP BUTTON  */
   .up-btn {
-     height: 15vw;
-   }
+    height: 15vw;
+  }
   .up-btn img {
     right: 2vw;
     height: 15vw;
