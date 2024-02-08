@@ -111,4 +111,39 @@
   .enroll-button a i {
     font-size: 4vw;
   }
+
+  /* POPUP CONTENT  */
+  .popup {
+    top: 40vw;
+    left: 10vw;
+    width: 80%;
+    height: 100vw;
+  }
+
+  .close {
+    font-size: 6vw;
+  }
+
+  .popup-content h1,
+  h3 {
+    margin-top: 4vw;
+  }
+  .options {
+    margin: 5vw auto;
+  }
+
+  .options img {
+    height: 6vw;
+  }
+  .options p {
+    font-size: 4.3vw;
+  }
+
+  .payment-btn {
+    width: 22vw;
+    height: 8vw;
+    top: 1vw;
+    font-size: 4.2vw;
+    margin-left: 30vw;
+  }
 }
