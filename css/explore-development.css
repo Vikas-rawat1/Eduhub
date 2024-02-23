@@ -73,21 +73,20 @@ body {
   display: none;
 }
 
-
 /* HERO SECITON  */
-.hero-section{
+.hero-section {
   margin: 2vw;
 }
-.left-right-development{
+.left-right-development {
   display: flex;
   height: 30vw;
 }
 
-.left-development{
+.left-development {
   width: 50%;
   float: left;
 }
-.know-more{
+.know-more {
   background-color: var(--black-background);
   border: 1px solid var(--border-line);
   width: 2vw;
@@ -104,28 +103,26 @@ body {
   color: var(--hover-text-black);
   cursor: pointer;
 }
-.laptop{
+.laptop {
   position: absolute;
 }
-.laptop img{
-  width: 80%;
-}
-.left-development video{
+
+ video {
   width: 83%;
   position: relative;
   margin-left: 5.4vw;
   margin-top: 1.2vw;
 }
 
-.right-development{
+.right-development {
   width: 50%;
   float: right;
 }
-.right-development h1{
- color: var(--text-color-white);
- margin-top: 2vw;
+.right-development h1 {
+  color: var(--text-color-white);
+  margin-top: 2vw;
 }
-.right-development p{
+.right-development p {
   color: var(--text-color-white);
   line-height: 2vw;
   font-size: 1.3vw;
@@ -139,7 +136,7 @@ body {
   /* display: flex; */
   margin-top: 2vw;
 }
-.button-learn img{
+.button-learn img {
   height: 3vw;
   position: absolute;
 }
@@ -200,7 +197,6 @@ body {
 .footer-right ul {
   position: relative;
   float: right;
-  
 }
 
 .footer-right ul li {
@@ -208,7 +204,6 @@ body {
   list-style-type: none;
   margin: 2vw;
   max-width: max-content;
-  
 }
 .footer-right ul li::after {
   content: "";
@@ -238,12 +233,11 @@ body {
 }
 /* SCROLL UP BUTTON  */
 .up-btn {
- background-color: var(--black-background);
+  background-color: var(--black-background);
   display: flex;
   float: right;
   width: 100%;
   position: relative;
-
 }
 .up-btn img {
   display: flex;
@@ -254,5 +248,5 @@ body {
   height: 4vw;
 }
 .up-btn:hover {
- cursor: pointer;
+  cursor: pointer;
 }
