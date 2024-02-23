@@ -87,9 +87,31 @@ body {
   width: 50%;
   float: left;
 }
-
-.left-development img{
-  width: 90%;
+.know-more{
+  background-color: var(--black-background);
+  border: 1px solid var(--border-line);
+  width: 2vw;
+  height: 2vw;
+  color: var(--text-color-white);
+  font-size: 1.2vw;
+  position: absolute;
+  margin-left: 2vw;
+  border-radius: 2vw;
+  transition: all 0.8s, color 0.3s 0.3s;
+}
+.know-more:hover {
+  box-shadow: 1vw 4vw 1vw 1vw var(--border-line) inset;
+  color: var(--hover-text-black);
+  cursor: pointer;
+}
+.laptop{
+  position: absolute;
+}
+.left-development video{
+  width: 83%;
+  position: relative;
+  margin-left: 5.4vw;
+  margin-top: 1.2vw;
 }
 
 .right-development{
