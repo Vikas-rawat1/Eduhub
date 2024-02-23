@@ -106,8 +106,10 @@ body {
 .laptop {
   position: absolute;
 }
-
- video {
+.laptop img {
+  width: 80%;
+}
+.left-development video {
   width: 83%;
   position: relative;
   margin-left: 5.4vw;
