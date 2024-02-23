@@ -86,34 +86,27 @@ body {
   width: 50%;
   float: left;
 }
-.know-more {
-  background-color: var(--black-background);
-  border: 1px solid var(--border-line);
-  width: 2vw;
-  height: 2vw;
-  color: var(--text-color-white);
-  font-size: 1.2vw;
-  position: absolute;
-  margin-left: 2vw;
-  border-radius: 2vw;
-  transition: all 0.8s, color 0.3s 0.3s;
-}
-.know-more:hover {
-  box-shadow: 1vw 4vw 1vw 1vw var(--border-line) inset;
-  color: var(--hover-text-black);
-  cursor: pointer;
-}
+
 .laptop {
-  position: absolute;
-}
-.laptop img {
-  width: 80%;
-}
-.left-development video {
-  width: 83%;
   position: relative;
-  margin-left: 5.4vw;
-  margin-top: 1.2vw;
+  display: inline-block;
+}
+
+.laptop img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.laptop video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 79%;
+  margin-top: 1vw;
+  margin-left: 5vw;
+  object-fit: cover;
+
 }
 
 .right-development {
@@ -142,7 +135,7 @@ body {
   height: 3vw;
   position: absolute;
 }
-.start-with {
+.start-with,.know-more  {
   background-color: var(--black-background);
   border: 1px solid var(--border-line);
   width: 10vw;
@@ -153,8 +146,12 @@ body {
   border-radius: 2vw;
   transition: all 0.8s, color 0.3s 0.3s;
 }
+.know-more {
+  width: 2vw;
+  height: 2vw;
+}
 
-.start-with:hover {
+.start-with:hover,.know-more:hover {
   box-shadow: 1vw 4vw 1vw 1vw var(--border-line) inset;
   color: var(--hover-text-black);
   cursor: pointer;

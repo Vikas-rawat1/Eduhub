@@ -51,33 +51,23 @@
   .left-development {
     width: 100%;
   }
-  .know-more {
-    background-color: var(--black-background);
-    border: 1px solid var(--border-line);
-    width: 2vw;
-    height: 2vw;
-    color: var(--text-color-white);
-    font-size: 1.2vw;
-    position: absolute;
-    margin-left: 2vw;
-    border-radius: 2vw;
-    transition: all 0.8s, color 0.3s 0.3s;
-  }
-  .know-more:hover {
-    box-shadow: 1vw 4vw 1vw 1vw var(--border-line) inset;
-    color: var(--hover-text-black);
-    cursor: pointer;
-  }
   .laptop {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+  }
+  .laptop video {
+    margin-top: 2vw;
+    margin-left: 9vw;
+  }
+  .know-more {
     position: absolute;
+    top: 15vw;
+    right: 0;
+    width: 10vw;
+    height: 10vw;
+    font-size: 7vw;
   }
-  .laptop img {
-    width: 80%;
-  }
- video {
-    width: 67%;
- 
-  }
+
   .right-development {
     width: 100%;
   }
@@ -102,6 +92,4 @@
   .start-with i {
     font-size: 3.2vw;
   }
-  
-
 }

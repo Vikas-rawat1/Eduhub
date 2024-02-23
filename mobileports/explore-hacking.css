@@ -51,6 +51,22 @@
   .left-development {
     width: 100%;
   }
+  .laptop {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+  }
+  .laptop video {
+    margin-top: 2vw;
+    margin-left: 9vw;
+  }
+  .know-more {
+    position: absolute;
+    top: 15vw;
+    right: 0;
+    width: 10vw;
+    height: 10vw;
+    font-size: 7vw;
+  }
   .right-development {
     width: 100%;
   }
@@ -75,5 +91,4 @@
   .start-with i {
     font-size: 3.2vw;
   }
-  
 }
